@@ -1689,8 +1689,10 @@ footer .box .connect ul li a:hover{
     }
     
     .section4 {
-        height: auto;
+        height: 2500px;
         padding: 50px 0;
+        row-gap: 20px;
+        column-gap: 20px;
     }
     
     .section5 .conteiner .bg,
@@ -1894,6 +1896,10 @@ footer .box .connect ul li a:hover{
         margin-bottom: 20px;
     }
     
+    .section4{
+        height: 4500px;
+        flex-direction: column;
+    }
     .section4 .container .Box1 .card {
         width: 280px;
     }
@@ -2042,20 +2048,50 @@ footer .box .connect ul li a:hover{
         width: 250px;
         font-size: 16px;
     }
+
+    .section3 {
+        height: 200vh;
+    }
     
     .section3 .container .card {
         width: 95%;
     }
-    
+    .section4 {
+        height: 800vh;
+        display: block;
+        /* left: 10px; */
+        
+    }
+     .section4 .container{
+        height: 650vh;
+     }
+    .section4 .container .Box1{
+        height: 450vh;
+       }
+    .section4 .container .Box1 .card{
+        /* height: 1000vh; */
+    }
     .section4 .container .Box1 .card {
+        height: 550px;
         width: 95%;
+    }
+    .section4 .container .Box1 .card .text{
+        margin-left: 80px;
+    }
+    .section4 .container .Box1 .card .image img{
+        height: 400px;
+        width: 400px;
     }
     
     .section4 .container .image1 {
         width: 250px;
         font-size: 16px;
     }
-    
+    .section6 #page{
+        height: 500vh;
+        /* display: block; */
+        height: auto;
+    }
     .section5 .conteiner .bg .text h1,
     .section7 .conteiner .bg .text h1 {
         font-size: 32px;
@@ -2076,7 +2112,22 @@ footer .box .connect ul li a:hover{
         margin-left: 50px;
         width: 120px;
     }
-    
+    .section8{
+        height: 300vh;
+        flex-wrap: wrap;
+        /* display: block; */
+
+    }
+    .section8 .container{
+        margin-left: 30px;
+        /* display: block; */
+    }
+    .section8 .container .box{
+        margin-left: 0px;
+    }
+    .section8 .container .box .img-txt{
+        margin-left: 50px;
+    }
     .section8 .container .creaw {
         font-size: 40px;
     }
@@ -2085,12 +2136,26 @@ footer .box .connect ul li a:hover{
         width: 250px;
         font-size: 16px;
     }
-    
+    .section9{
+        height: 300vh;
+        /* display: block; */
+    }
+    /* .section9 .container{
+        height: 200vh;
+    } */
+    .section10{
+        height: 250vh;
+        display: block;
+    }
     .section10 .head {
         width: 300px;
         font-size: 20px;
     }
     
+    .section11{
+        height: 200vh;
+        display: block;
+    }
     .section11 .head {
         width: 300px;
         font-size: 16px;
